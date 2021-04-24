@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+}
+button {
+  background: #f771c6;
+  border: none;
+  padding: 5px 15px ;
+}
+.container {
+    width: 70%;
+    margin: 50px auto;
+}
+/**************** 
+Header
+*****************/
+header {
+    background-image: url(img/header-flowers.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+header nav {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+header nav h1 {
+    float: left;
+}
+header nav ul {
+    float: right;
+}
+
+header nav h1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.clearfix {
+    clear: both;
+}
+
+article {
+    padding: 200px;
+}
+header h2 {
+    font-size: 65px;
+    color: #f771c6;
+}
+header h4 {
+    font-size: 30px;
+    padding: 10px 0 40px 0;
+}
+/**************** 
+Section 1
+*****************/
+.text {
+    text-align: center;
+}
+.text h2 {
+    font-size: 40px;
+}
+.text h4 {
+    font-size: 20px;
+    padding: 10px 0 40px 0;
+}
+.text p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+/**************** 
+Section 2
+*****************/
+.section2 {
+    background: #f771c6;
+}
+.slika img {
+    width: 100%;
+    margin: 50px auto;   
+}
+.section2 button {
+    background: white;
+}
+.section2 article {
+    padding: 30px;
+}
+/**************** 
+Section 3
+*****************/
+.section3 article {
+    padding: 30px;
+
+}
+.section3 p {
+    border: 2px dashed black;
+    padding: 20px;
+
+}
+/**************** 
+footer
+*****************/
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+}
